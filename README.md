@@ -65,6 +65,13 @@ Como o foco atual foi a validação do design, usabilidade e arquitetura de rota
 
 Acesse o Quadro do Trello Aqui https://trello.com/b/Oc6HyHyQ
 
+## Código-Fonte do Projeto (BeeTech)
+
+O código-fonte da aplicação e os artefatos técnicos do projeto estão disponibilizados no repositório dedicado:
+
+* **Repositório de Código:** https://github.com/melaineborgesctba-cmd/projeto-beetech-codigo
+* **Stack Principal:** React Native / Expo Router (mobile), API Java/Maven e banco de dados MySQL (`beetech_db.sql`).
+
 Acesse nossa rede Social: https://www.instagram.com/beetch_abelhas/
 # Equipe
 Melaine Borges Alves

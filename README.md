@@ -31,7 +31,7 @@ Materiais Físicos: Madeira balsa para a maquete externa, madeiras sustentáveis
 
 
 
-Logística Verde: Embalagens biodegradáveis para o envio de mudas e sementes.
+Logística Verde: Em conformidade com o Termo de Abertura, o BeeTech não possui frota ou logística física própria de transporte. A operação adota o conceito de Logística Verde no preparo e acondicionamento dos pedidos (utilizando embalagens biodegradáveis para mudas e sementes), enquanto o transporte até o cliente final é realizado integralmente por operadores logísticos terceirizados (motoboy para entregas locais e Correios/Sedex para envios regionais e nacionais).
 
 Engenharia de Software (TI)
 Front-end Mobile: React Native (Interface mobile enxuta, intuitiva e responsiva).

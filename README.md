@@ -34,17 +34,12 @@ Materiais Físicos: Madeira balsa para a maquete externa, madeiras sustentáveis
 Logística Verde: Em conformidade com o Termo de Abertura, o BeeTech não possui frota ou logística física própria de transporte. A operação adota o conceito de Logística Verde no preparo e acondicionamento dos pedidos (utilizando embalagens biodegradáveis para mudas e sementes), enquanto o transporte até o cliente final é realizado integralmente por operadores logísticos terceirizados (motoboy para entregas locais e Correios/Sedex para envios regionais e nacionais).
 
 Engenharia de Software (TI)
-Front-end Mobile: React Native (Interface mobile enxuta, intuitiva e responsiva).
-Back-end & API: Node.js (Servidor REST para persistência e processamento das requisições).
-Modelagem do Sistema: Diagramas UML de Casos de Uso, Atividades e Classes.
+Front-end Mobile: React Native com Expo Router (interface mobile enxuta, intuitiva e responsiva). Back-end & API: Java / Maven (servidor REST para processamento das requisições). Banco de Dados: Modelagem relacional em MySQL (beetech_db.sql). Modelagem do Sistema: Diagramas UML de Casos de Uso, Atividades e Classes.
 
 Tecnologias e Arquitetura do MVP
 
-O ecossistema digital foi desenvolvido focando na experiência do usuário (UX) e na validação das interfaces de navegação, utilizando:
-
-Front-end Mobile: React Native / Expo Router (Estrutura de abas e fluxo de telas).
-Back-end/Arquitetura: Node.js (Estruturação das rotas base do servidor).
-Gerenciamento de Estado: Dados locais (*Mock Data*) temporários para simulação e homologação dos fluxos de cadastro e ficheiro descritivo, sem persistência em banco de dados nesta fase de validação.
+O ecossistema digital foi desenvolvido focando na experiência do usuário (UX), na validação das interfaces de navegação e na estruturação da arquitetura de dados, utilizando:
+Front-end Mobile: React Native / Expo Router (estrutura de abas e fluxo de telas). Back-end / Arquitetura: Java / Maven (estruturação dos serviços e rotas da API). Banco de Dados e Persistência: Estrutura relacional modelada em MySQL (beetech_db.sql), combinada com dados locais (Mock Data) para simulação e homologação dos fluxos de navegação nesta fase de validação.
 
 Gestão do Projeto
 Toda a organização de prazos e tarefas deste projeto é realizada via Trello.
@@ -53,7 +48,7 @@ Roadmap de Evolução (Próximo Semestre)
 
 Como o foco atual foi a validação do design, usabilidade e arquitetura de rotas do aplicativo mobile, o planejamento para a Fase 3 do projeto contempla:
 
-1. Persistência de Dados: Integração do Back-end em Node.js com um Banco de Dados Relacional (PostgreSQL/MySQL) para o cadastro real de usuários.
+1. Persistência de Dados: Integração do Back-end em Java/Maven com o Banco de Dados Relacional MySQL (beetech_db.sql) para o cadastro e autenticação real de usuários.
 2. Módulo de Vendas: Implementação das tabelas e regras de negócio para venda dos kits de regeneração e caixas-maquete.
 3. Mecanismo de Busca: Desenvolvimento de queries indexadas para o histórico e salvamento das pesquisas da comunidade.
 4. Criação de material didático voltado ao ensino de manejo, conhecimento e preservação de abelhas sem ferrão
@@ -75,6 +70,7 @@ O código-fonte da aplicação e os artefatos técnicos do projeto estão dispon
 Acesse nossa rede Social: https://www.instagram.com/beetch_abelhas/
 # Equipe
 Melaine Borges Alves
+
 Patricia de Cassia Lemes Medeiros Leal
 
 contato: abelhasbeetch@gmail.com
